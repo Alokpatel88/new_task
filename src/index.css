@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #e6f4ea; 
+    color: #3c6e40; 
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(to right, #d0f0c0, #c9e5d0, #b3d9b2); 
+    color: #3c6e40;
+}
+
+.navbar a:hover {
+    color: #2a5d2a; 
+}
